@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+:root {
+  --left-width: 35vw;
+  --right-width: calc(100vw-(var(--left-width)));
+  --height:100vh;
+}
+
+body {
+  margin: 0px;
+  display: flex;
+}
+
+.left-container {
+  width: var(--left-width);
+  height: var(--height);
+  
+  background-image: url('./images/black.jpeg');
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15vh;
+}
+
+.right-container {
+  width: var(--right-width);
+  height: var(--height);
+  background-color: rgb(190, 190, 54,0.5);
+  display:flex;
+  flex-direction: column;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.red {
+  color: red;
+}
+
+h1 {
+  font-family:'Dancing Script' ;
+  font-weight: 700;
+  margin: 0px;
+  padding-bottom: 5vh;
+}
+
+.saulgoodman {
+  width: 25vw;
+  height: calc(0.20*var(--height));
+}
